@@ -1,0 +1,16 @@
+fname=input('enter your first name ')
+lname=input('enter your last name ')
+Fullname =fname.capitalize()+' '+lname.capitalize()
+print('Full name is ', Fullname)
+
+phone=input('enter your phone number=')
+while not len(phone)==10 and phone.isdigit()==True:
+   phone=input('please enter correct 10 digit number')
+else:
+    print('Phone number is ', phone)
+    
+email=input('enter your email please= ')
+while not email.endswith('@gmail.com')==True:
+  email=input('please enter correct email address that ends with @gmail.com ')
+else:
+  print('Email address is ', email)
